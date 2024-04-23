@@ -1,24 +1,23 @@
 .selectors {
-}
+  h2 {
+    font-size: 25px;
+  }
 
-h2 {
-  font-size: 25px;
-}
+  h2,
+  h3 {
+    font-weight: 700;
+  }
 
-h2,
-h3 {
-  font-weight: 700;
-}
+  .section .year {
+    color: red;
+  }
 
-.section .year {
-  color: red;
-}
+  .section h3 {
+    text-decoration: underline;
+  }
 
-.section h3 {
-  text-decoration: underline;
-}
-
-.category .year h2,
-h3 {
-  font-style: italic;
+  .category .year h2,
+  h3 {
+    font-style: italic;
+  }
 }
